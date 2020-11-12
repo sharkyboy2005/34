@@ -8,7 +8,7 @@ function setup(){
     dog = createSprite(250,250,10,10);
     dog.shapeColor = "red";
     var dogRef = database.ref("dog/position")
-    digRef.on("value", readPosition)
+    dogRef.on("value", readPosition)
 }
 
 function draw(){
